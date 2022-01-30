@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>My presentation</title>
+		<link rel="icon" href="./examples/assets/image2.png">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section style="color: rgb(0, 225, 255); font-size: 60px">HOW DOES WEB BROWSERS WORK</section>
+					<section>
+						<section>Five major browsers used on desktop today:
+							<img src="./examples/assets/browsers.png" alt="img">
+						</section>
+					</section>
+				</section>
+				<section>
+					<section style="color: rgb(0, 225, 255); font-size: 60px"> Browser
+						 <p class="fragment" style="color: #fff; font-size: 40px">is a group of structured codes which together performs a series of tasks to display a web page on the screen</p>
+					</section>
+				</section>
+				<section>
+					<section style="color: rgb(0, 225, 255); font-size: 60px"> BASIC ELEMENTS OF THE BROWSER INTERFACE:
+						<p class="fragment" style="color: #fff; font-size: 40px">- address bar for inserting a URI</p>
+						<p class="fragment" style="color: #fff; font-size: 40px">- back and forward buttons</p>
+						<p class="fragment" style="color: #fff; font-size: 40px">- bookmarking options</p>
+						<p class="fragment" style="color: #fff; font-size: 40px">- refresh and stop buttons for refreshing or stopping the loading of current documents</p>
+						<p class="fragment" style="color: #fff; font-size: 40px">- home button that takes you to your home page</p>
+					</section>
+				</section>
+				<section>
+					<section style="color: rgb(0, 225, 255); font-size: 60px">High-level architecture of browser</section>
+					<section>
+						<img style="width: 1000px" src="./examples/assets/layers.png" alt="img">
+					</section>
+				</section>
+				<section>
+					<section style="color: rgb(0, 225, 255); font-size: 60px">Rendering engine</section>
+					<section>
+						<img src="./examples/assets/render.png" alt="img">
+					</section>
+				</section>
+				<section style="color: rgb(0, 225, 255); font-size: 60px">Thank you for your attention</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
